@@ -10,7 +10,9 @@ fn main(){
     loop{
 
         println!("El cuadrado de {} es {}", a, a*a);
-        //TODO: Parar el bucle
+        if (a*a)==64{
+            break;
+        }
         a+=1;
     }
 }

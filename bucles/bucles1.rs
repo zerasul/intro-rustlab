@@ -4,5 +4,8 @@
 */
 
 fn main(){
-    //TODO: Calcular el doble de los 10 primeros numeros.
+    
+    for a in 0..10{
+        println!("El doble de {} es: {}",a ,2*a);
+    }
 }
