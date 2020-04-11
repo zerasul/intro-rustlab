@@ -1,6 +1,6 @@
 /**
  * Ejercicio 2: Declarar una variable con tipado
- * 
+ * Autor: Victor Suarez <zerasul@gmail.com>
  */
 
 fn main(){

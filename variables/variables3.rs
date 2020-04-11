@@ -1,6 +1,6 @@
 /**
  * Ejercicio 3: Declarar una variable mutable
- * 
+ * Autor: Victor Suarez <zerasul@gmail.com>
  */
 
 fn main(){
