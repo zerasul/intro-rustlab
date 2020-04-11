@@ -8,6 +8,6 @@
 
 fn main(){
 
-    println!("El doble de 2 es: {}",dobleTriple(2));
-    println!("El triple de 3 es: {}", dobletriple(3));
+    println!("El doble de 2 es: {}",doble_triple(2));
+    println!("El triple de 3 es: {}", doble_triple(3));
 }
