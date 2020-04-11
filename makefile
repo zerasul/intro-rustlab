@@ -2,8 +2,9 @@ RUSTC = rustc
 CHANGEDIR_VARIABLES = cd variables
 CHANGEDIR_IFELSE = cd if
 CHANGEDIR_BUCLES = cd bucles
+CHANGEDIR_FUNCIONES= cd funciones
 
-all: variables if-else bucles
+all: variables if-else bucles funciones
 
 variables: variables1.rs variables2.rs variables3.rs
 	
@@ -27,6 +28,10 @@ bucles1.rs:
 bucles2.rs:
 	${CHANGEDIR_BUCLES} && ${RUSTC} bucles2.rs
 
+funciones: funciones1.rs
+
+funciones1.rs:
+	${CHANGEDIR_FUNCIONES} && ${RUSTC} funciones1.rs
 
 clean: 
 	rm **/*.pdb
