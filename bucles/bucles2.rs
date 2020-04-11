@@ -1,4 +1,4 @@
-/* Ejercicio 5: Bucles loop
+/* Ejercicio 6: Bucles loop
  * Usando un bucle loop calcular los cuadrados de los numeros
  *  hasta que el resultado sea 64.
  * Autor: Victor Suarez <zerasul@gmail.com>

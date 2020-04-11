@@ -15,6 +15,7 @@ Para compilar cada ejercicio y generar el binario, usaremos el compilador de rus
 ```bash
 rustc fichero.rs
 ```
+**NOTA:** Más adelante se usará el gestor ```cargo``` que es el que nos ayudará a generar nuestros binarios.
 
 Para poder saber la resolución de cada ejercicio, hay una rama especial de este repositorio llamada ```soluciones```.
 
@@ -24,8 +25,12 @@ Seguidamente se muestra la tabla de contenidos de este repositorio:
 * [Variables](variables).
 * [if-else](if).
 * [Bucles](bucles).
-* [Funciones]().
+* [Funciones](funciones).
 * [Gestión de memoria con Rust]().
 * [Cadenas]().
 * [Arrays y Tuplas]().
 * [Structs y Enums]().
+* [Option y Result]().
+* [Modulos]().
+* [Cargo]().
+* [Testing]().
