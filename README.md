@@ -23,3 +23,9 @@ Seguidamente se muestra la tabla de contenidos de este repositorio:
 * [Hello World](hello-rust).
 * [Variables](variables).
 * [if-else](if).
+* [Bucles](bucles).
+* [Funciones]().
+* [Gestión de memoria con Rust]().
+* [Cadenas]().
+* [Arrays y Tuplas]().
+* [Structs y Enums]().
