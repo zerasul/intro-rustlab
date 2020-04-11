@@ -20,4 +20,5 @@ Para poder saber la resolución de cada ejercicio, hay una rama especial de este
 
 Seguidamente se muestra la tabla de contenidos de este repositorio:
 
+* [Hello World](hello-world).
 * [Variables](variables).
