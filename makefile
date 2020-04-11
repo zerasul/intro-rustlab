@@ -13,7 +13,7 @@ variables2.rs:
 	${CHANGEDIR_VARIABLES} && ${RUSTC} variables2.rs
 
 variables3.rs:
-	${CHANGEDIR_VARIABLES} && ${RUSTC} variables3.rs && cd..
+	${CHANGEDIR_VARIABLES} && ${RUSTC} variables3.rs
 
 if-else:
 	${CHANGEDIR_IFELSE} && ${RUSTC} if-else.rs

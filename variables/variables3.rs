@@ -4,7 +4,7 @@
  */
 
 fn main(){
-    let x:i32 = 5; //TODO: Declarar esta variable como mutable.
+    let mut x:i32 = 5; //TODO: Declarar esta variable como mutable.
 
     println!("x es igual a: {}", x);
     x=1;

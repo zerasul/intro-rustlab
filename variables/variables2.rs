@@ -4,7 +4,7 @@
  */
 
 fn main(){
-    let x; //TODO: Declarar esta variable como f32 y asignarle un valor
+    let x:f32=3.1416; //TODO: Declarar esta variable como f32 y asignarle un valor
 
     println!("x es igual a: {}", x);
 }
