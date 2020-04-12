@@ -4,8 +4,9 @@ CHANGEDIR_IFELSE = cd if
 CHANGEDIR_BUCLES = cd bucles
 CHANGEDIR_FUNCIONES= cd funciones
 CHANGEDIR_GESTMEMORIA = cd gestion-memoria
+CHANGEDIR_CADENAS = cd cadenas
 
-all: variables if-else bucles funciones gestion-memoria
+all: variables if-else bucles funciones gestion-memoria cadenas
 
 variables: variables1.rs variables2.rs variables3.rs
 	
@@ -41,6 +42,11 @@ gestion-memoria1.rs:
 
 gestion-memoria2.rs:
 	${CHANGEDIR_GESTMEMORIA} && ${RUSTC} gestion-memoria2.rs
+
+cadenas: cadenas1.rs
+
+cadenas1.rs:
+	${CHANGEDIR_CADENAS} && ${RUSTC} cadenas1.rs
 
 clean: 
 	rm **/*.pdb
