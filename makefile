@@ -7,8 +7,9 @@ CHANGEDIR_GESTMEMORIA = cd gestion-memoria
 CHANGEDIR_CADENAS = cd cadenas
 CHANGEDIR_ARRAYS= cd arrays-tuplas
 CHANGEDIR_STRUCTS= cd structs-enums
+CHANGEDIR_OPTION= cd option-result
 
-all: variables if-else bucles funciones gestion-memoria cadenas arrays-tuplas structs-enums
+all: variables if-else bucles funciones gestion-memoria cadenas arrays-tuplas structs-enums option-result
 
 variables: variables1.rs variables2.rs variables3.rs
 	
@@ -67,6 +68,15 @@ structs-enums1.rs:
 	${CHANGEDIR_STRUCTS} && ${RUSTC} structs-enums1.rs
 structs-enums2.rs:
 	${CHANGEDIR_STRUCTS} && ${RUSTC} structs-enums2.rs
+
+option-result: option-result1.rs option-result2.rs
+
+option-result1.rs:
+	${CHANGEDIR_OPTION} && ${RUSTC} option-result1.rs
+
+option-result2.rs:
+	${CHANGEDIR_OPTION} && ${RUSTC} option-result2.rs
+
 clean: 
 	rm **/*.pdb
 	rm **/*.exe
