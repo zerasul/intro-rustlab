@@ -26,11 +26,17 @@ Seguidamente se muestra la tabla de contenidos de este repositorio:
 * [if-else](if).
 * [Bucles](bucles).
 * [Funciones](funciones).
-* [Gestión de memoria con Rust]().
-* [Cadenas]().
+* [Gestión de memoria con Rust](gestion-memoria).
+* [Cadenas](cadenas).
 * [Arrays y Tuplas]().
 * [Structs y Enums]().
 * [Option y Result]().
 * [Modulos]().
 * [Cargo]().
 * [Testing]().
+
+## Licencia
+
+Todo el codigo fuente de este repositorio se considera con licencia MIT. Para más información consulte el fichero de licencia.
+
+El contenido descrito en este repositorio, se considera licencia Creative Commons ![cc4.0-bysca](https://i.creativecommons.org/l/by-sa/4.0/88x31.png) . Puede ver una copia de la licencia en el siguiente [enlace](http://creativecommons.org/licenses/by-sa/4.0/).
