@@ -34,10 +34,13 @@ funciones: funciones1.rs
 funciones1.rs:
 	${CHANGEDIR_FUNCIONES} && ${RUSTC} funciones1.rs
 
-gestion-memoria: gestion-memoria1.rs
+gestion-memoria: gestion-memoria1.rs gestion-memoria2.rs
 
 gestion-memoria1.rs:
 	${CHANGEDIR_GESTMEMORIA} && ${RUSTC} gestion-memoria1.rs
+
+gestion-memoria2.rs:
+	${CHANGEDIR_GESTMEMORIA} && ${RUSTC} gestion-memoria2.rs
 
 clean: 
 	rm **/*.pdb
