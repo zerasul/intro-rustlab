@@ -29,7 +29,7 @@ Seguidamente se muestra la tabla de contenidos de este repositorio:
 * [Gestión de memoria con Rust](gestion-memoria).
 * [Cadenas](cadenas).
 * [Arrays y Tuplas](arrays-tuplas).
-* [Structs y Enums]().
+* [Structs y Enums](structs-enum).
 * [Option y Result]().
 * [Modulos]().
 * [Cargo]().

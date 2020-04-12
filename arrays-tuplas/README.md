@@ -13,13 +13,13 @@ let a:[i32;5]=[0,1,2,3,4];
 Como vemos en el anterior ejemplo, se debe definir de que tipo será el array y cuantas posiciones se compone este. Los Arrays en Rust comienzan por la posición ```0```.
 
 ```rust
-let a:[i32;100]=[0..99];//podemos usar rangos para inicializar los array.
+let a:[i32;100]=[0;99];//podemos usar rangos para inicializar los array.
 ```
 
 Podemos usar el bucle ```for```, para recorrer este array:
 
 ```rust
-let a:[i32;100]=[0..99];
+let a:[i32;100]=[0;99];
 for i in a{
     println!("{}",i);
 }
@@ -37,7 +37,7 @@ println!("{}",a[1]);//1
 Podemos usar un ```slice```, para poder obtener una parte de un array; para ello se usa el operador ```&``` y un rango de posiciones:
 
 ```rust
-let a:[i32;100]=[0..99];
+let a:[i32;100]=[0;99];
 
 let suba=&a[0..50];//Obtiene los 50 primeras posiciones de a.
 ```
@@ -63,6 +63,6 @@ Podemos deconstruir una tupla para poder obtener cada posicion y poder operar co
 
 ```rust
 let t:(&str,i32):("Hola",2);
-let name,x = t;
+let (name,x) = t;
 println!("name: {}, x: {}",name,x);
 ```
