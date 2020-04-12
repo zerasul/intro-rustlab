@@ -4,12 +4,13 @@
 */
 
 struct Persona{
-    //TODO:Rellenar el struct
+    nombre:String,
+    edad:i32
 }
 
 impl Persona{
     fn mostrarinfo(self){
-        //TODO: Mostrar por pantalla el nombre y la edad de la persona
+       println!("El nombre es: {} y la edad es: {}", self.nombre, self.edad);
     }
 }
 
