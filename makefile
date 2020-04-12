@@ -43,10 +43,13 @@ gestion-memoria1.rs:
 gestion-memoria2.rs:
 	${CHANGEDIR_GESTMEMORIA} && ${RUSTC} gestion-memoria2.rs
 
-cadenas: cadenas1.rs
+cadenas: cadenas1.rs cadenas2.rs
 
 cadenas1.rs:
 	${CHANGEDIR_CADENAS} && ${RUSTC} cadenas1.rs
+
+cadenas2.rs:
+	${CHANGEDIR_CADENAS} && ${RUSTC} cadenas2.rs
 
 clean: 
 	rm **/*.pdb
