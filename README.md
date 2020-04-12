@@ -31,7 +31,7 @@ Seguidamente se muestra la tabla de contenidos de este repositorio:
 * [Arrays y Tuplas](arrays-tuplas).
 * [Structs y Enums](structs-enums).
 * [Option y Result](option-result).
-* [Modulos]().
+* [Modulos](modulos).
 * [Cargo]().
 * [Testing]().
 
