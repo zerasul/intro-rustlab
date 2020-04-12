@@ -5,7 +5,7 @@
 
 fn mifuncion(x:i32)->Result<i32,&str>{
    
-    if(x>0){
+    if x>0 {
         //devolver OK y devolver el cubo del parametro recibido
     }else{
         //Devolver Err

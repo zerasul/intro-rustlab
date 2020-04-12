@@ -9,7 +9,7 @@ Option es un tipo de dato que nos permite definir 2 opciones posibles; ```Some``
 ```rust
 fn mifuncion(x:i32)-> Option<i32>{
 
-    if x>0{
+    if x>0 {
         Some(4)
     }else{
         None
@@ -37,7 +37,7 @@ Otro tipo de dato especial es ```Result```, el cual nos permite definir que ocur
 
 ```rust
 fn mifuncion(x:i32)-> Result<i32,String>{//A diferencia de Option, aquí hay dos tipos parametrizados; uno para OK y otro para Err.
-    if(x>=0){
+    if x>=0 {
         Ok(4)
     }else{
         Err("Ha ocurrido un error".to_string())
