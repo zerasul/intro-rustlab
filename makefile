@@ -1,4 +1,5 @@
 RUSTC = rustc
+CARGO = cargo build
 CHANGEDIR_VARIABLES = cd variables
 CHANGEDIR_IFELSE = cd if
 CHANGEDIR_BUCLES = cd bucles
@@ -8,8 +9,10 @@ CHANGEDIR_CADENAS = cd cadenas
 CHANGEDIR_ARRAYS= cd arrays-tuplas
 CHANGEDIR_STRUCTS= cd structs-enums
 CHANGEDIR_OPTION= cd option-result
+CHANGEDIR_MODULES = cd modulos
+CHANGEDIR_CARGO = cd cargo/miproyecto
 
-all: variables if-else bucles funciones gestion-memoria cadenas arrays-tuplas structs-enums option-result
+all: variables if-else bucles funciones gestion-memoria cadenas arrays-tuplas structs-enums option-result modulos cargo
 
 variables: variables1.rs variables2.rs variables3.rs
 	
@@ -76,6 +79,16 @@ option-result1.rs:
 
 option-result2.rs:
 	${CHANGEDIR_OPTION} && ${RUSTC} option-result2.rs
+
+modulos: modulos1.rs
+
+modulos1.rs:
+	${CHANGEDIR_MODULES} && ${RUSTC} modulos1.rs
+
+cargo: cargo1
+
+cargo1:
+	${CHANGEDIR_CARGO} && ${CARGO}
 
 clean: 
 	rm **/*.pdb
