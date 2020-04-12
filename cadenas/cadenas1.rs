@@ -3,13 +3,13 @@
  * Autor: Victor Suarez <zerasul@gmail.com>
 */
 
-fn mifuncion(let x:&str){
-    println!(x);
+fn mifuncion(x:&str){
+    println!("{}",x);
 }
 
 fn main(){
 
-    let x:String="Hola Mundo";
+    let x:String=String::from("Hola Mundo");
 
-    mifuncion(x);
+    mifuncion(&x);
 }

@@ -6,6 +6,6 @@
 fn main(){
 
     let x:&str="Hola mundo";
-    let x1:String=x;
-    println(x1);
+    let x1:String=String::from(x);
+    println!("Valor x1: {}",x1);
 }
