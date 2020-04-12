@@ -5,6 +5,6 @@
 
 fn main(){
     let t:(&str,i32)=("Victor", 33);
-
+    let (nombre,edad) = t;
     println!("Nombre: {}, edad: {}", nombre, edad);
 }

@@ -4,7 +4,16 @@
 */
 
 fn main(){
-    let a:[i32,20]=[0..20];
+    let a:[i32;20]=[0;20];
 
-    //TODO: mostrar el doble del 0 al 10 y el triple del 11 al 20.
+    let slice1 = &a[0..10];
+    let slice2 = &a[11..20];
+
+    for i in slice1{
+        println!("El doble de {} es: {}",i, 2*i);
+    }
+
+    for j in slice2{
+        println!("El triple de {} es: {}",j,3*j);
+    }
 }
