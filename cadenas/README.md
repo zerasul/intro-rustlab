@@ -28,7 +28,7 @@ let x:String=String::from("Hola Mundo"); //Convertir de &str a String, creando u
 
 ```rust
 let x:String= String::from("Hola Mundo");
-let x1:&str=x.into();//Convertir de String a &str
+let x1:&str=&x;//Convertir de String a &str
 ```
 
 ```rust
