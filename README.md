@@ -32,8 +32,7 @@ Seguidamente se muestra la tabla de contenidos de este repositorio:
 * [Structs y Enums](structs-enums).
 * [Option y Result](option-result).
 * [Modulos](modulos).
-* [Cargo]().
-* [Testing]().
+* [Cargo](cargo).
 
 ## Licencia
 
