@@ -4,7 +4,13 @@
 */
 //TODO: definir y escribir la funcion
 
-//fn mifuncion....
+fn mifuncion(x:i32) -> Option<i32>{
+    if x>=0 {
+        Some(x*x)
+    }else{
+        None
+    }
+}
 
 
 fn main(){
