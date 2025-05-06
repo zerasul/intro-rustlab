@@ -68,7 +68,7 @@ enum Mienum{
     Valor2,
     Valor3
 };
-
+```
 Sin embargo, en Rust podemos asociar información adicional a cada estado de un Enum:
 
 ```rust
