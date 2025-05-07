@@ -1,19 +1,15 @@
-/* Ejercicio 11: Arrays en Rust
- * Mostrar el doble de los primeros 10 numeros y el triple del numero 11 al 20
- * Autor: Victor Suarez <zerasul@gmail.com>
-*/
-
 fn main(){
-    let a:[i32;20]=[0;20];
+    let a: Vec<i32> = (0..20).collect();
 
-    let slice1 = &a[0..10];
-    let slice2 = &a[11..20];
+    //TODO: mostrar el doble del 0 al 10 y el triple del 11 al 20.
+    let first_ten = &a[0..10];
+    let next_ten = &a[10..20];
 
-    for i in slice1{
-        println!("El doble de {} es: {}",i, 2*i);
+    for &num in first_ten {
+        println!("Doble de {}: {}", num, num * 2);
     }
 
-    for j in slice2{
-        println!("El triple de {} es: {}",j,3*j);
+    for &num in next_ten {
+        println!("Triple de {}: {}", num, num * 3);
     }
 }
