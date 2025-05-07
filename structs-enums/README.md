@@ -49,7 +49,7 @@ impl Persona{
 }
 ```
 
-Para poder usar estos metodos:
+Para poder usar estos métodos:
 
 ```rust
 ...
