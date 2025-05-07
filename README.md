@@ -1,6 +1,7 @@
 # Laboratorio de Iniciación a Rust
 
-![rust-logo](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/240px-Rust_programming_language_black_logo.svg.png)
+![imagen](https://github.com/user-attachments/assets/1d06ef12-ce5b-4dd2-80ac-e4e1049ac8c3)
+
 
 Laboratorio de Introducción a Rust; en este repositorio, encontrará ejercicios e información, para iniciarse en el lenguaje de programación [Rust](https://www.rust-lang.org/).
 
